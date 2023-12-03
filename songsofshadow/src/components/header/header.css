@@ -8,11 +8,17 @@ header {
   /* justify-content: space-evenly;
   align-items: center; */
   margin: 20px;
+  height: 150px;
+  border: 1px solid black; /* Invisible border */
+  border-radius: 10px;
+  background-color: lightyellow;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* The switch - the box around the slider */
 .switch {
   position: relative;
+  top: 58px;
   display: inline-block;
   width: 60px;
   height: 34px;
@@ -85,7 +91,7 @@ input:checked + .slider:before {
 }
 .ltitle {
   position: relative;
-  right: 5px;
+  left: 50px;
   color: blue;
   display: flex;
   justify-content: flex-start;
@@ -99,6 +105,12 @@ input:checked + .slider:before {
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
+}
+
+.rtitle:hover {
+  color: lightgreen;
+  text-shadow: 4px 2px 4px rgba(0, 125, 125, 0.8);
+  transition: 0.5s;
 }
 /* Light Mode */
 .dark {
