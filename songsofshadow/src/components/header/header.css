@@ -7,6 +7,7 @@ header {
   font-size: 25pt;
   /* justify-content: space-evenly;
   align-items: center; */
+
   margin: 20px;
   height: 150px;
   border: 1px solid black; /* Invisible border */
@@ -79,7 +80,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 .btnContain {
-  position: fixed;
+  position: relative;
   left: 50px;
   display: flex;
   align-items: center;

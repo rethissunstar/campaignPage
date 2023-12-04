@@ -5,6 +5,7 @@ import Home from "./components/home/home";
 import Story from "./components/story/story";
 import Characters from "./components/characters/characters";
 import Charms from "./components/charms/charms";
+import PDFViewer from "./components/utils/pdfviewer/PDFviewer";
 
 const App = () => {
   return (
@@ -16,7 +17,6 @@ const App = () => {
         <Route path="/story" element={<Story />} />
         <Route path="/characters" element={<Characters />} />
         <Route path="/charms" element={<Charms />} />
-        {/* Additional routes can be added here */}
       </Routes>
     </Router>
   );
