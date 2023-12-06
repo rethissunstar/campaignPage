@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-size: 20pt;
+}
+.solar-character-sheet {
+  text-align: center;
+}

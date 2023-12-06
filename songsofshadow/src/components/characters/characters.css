@@ -1,6 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   box-sizing: border-box;
 }
+.transit {
+  transition: opacity 0.5s ease-in-out;
+}
+
 .container {
   text-align: center;
   display: flex;
@@ -27,16 +35,11 @@
 .btnStyle {
   font-size: 30pt;
 }
-/* .dieRoller {
-  position: relative;
-}
+
 .diceRoller {
-  margin: 20px;
-  position: relative;
-  top: 300px;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 .pdfViewer {
   margin: 20px;
-  position: relative;
-  top: 550px;
-} */
+}
