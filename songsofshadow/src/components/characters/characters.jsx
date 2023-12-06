@@ -33,7 +33,7 @@ const Characters = () => {
 
   return (
     <div>
-      <div className="container">
+      <div className="container transit">
         {charactersVisible && (
           <div className="characters">
             <ul className="list-group">
