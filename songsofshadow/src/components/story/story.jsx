@@ -6,34 +6,44 @@ const Story = () => {
   return (
     <div className="w-full">
       {/* Central Card */}
-      <div className="bg-white p-8 rounded-lg shadow-md">
+      <div className="p-8 rounded-lg shadow-md">
         {/* Section 1 */}
         <section className="mb-6 grid grid-cols-2 gap-4">
           <div className="col-span-1">
             <img
               src={oldCreationImage}
               alt="the picture of the old world"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover border border-black"
             />
           </div>
           <div className="col-span-1 flex flex-col">
-            <section className="text-lg font-semibold"> Pre-amble</section>
+            <section className="text-lg flex flec-col r font-semibold">
+              {" "}
+              Pre-amble
+            </section>
             <p className="mb-0">
-              The exalted ruled over this world. Deposing its creators. But that
-              event is all you know. Mighty creators of something so big that
-              you cannot envision the whole. Destroyed by beings who walk
-              Creation. Amongst you.
+              "This is a map of the ancient lands. To the North, to the South,
+              East and west. I KNOW that we have lost people. Civilizations to
+              the encroaching terrors. how can I tell you this with such
+              confidence? We are traders. We know when a source has dried up.
+              When no profit is to be gained by a venture. You can see in our
+              books that we traded with people on far. The Jade Empire, a small
+              but industrious independent group of dragon-bloods. To the North,
+              even the Bull did not stop the loss by the Faerie. To the East we
+              lose ground to those clad in silver. Now, Even in our heartland we
+              have invasion. The Shadow spreads and the dead have come back to
+              the Earth. In a force we should be wary of. The Scarlet Empire
+              cannot reach us...who fights back for us... " -- Jaquer the Jade
+              Merchant
             </p>
+            <section>
+              ______________________________________________________________________________
+            </section>
             <p className="mb-0">
-              You have become one of these beings, but only fleeting dreams and
-              an ever-present danger let you know that there is something more.
-            </p>
-            <p className="mb-0">
-              ...and the power. For better or worse, you stand now with power
-              unrivaled by any mortal. Yours are the hands to shape your destiny
-              surely. Will you shape the world kindly? or with the same despotic
-              mindset that is all other beings who exist and creation and
-              beyond.
+              "... you have put everyone you know in danger. Your family, this
+              town, and, of course, you. How do you square the deaths of those
+              who don't know. When the Hunt comes." - Norwell, bard of the 3rd
+              college
             </p>
 
             <section>
@@ -58,39 +68,43 @@ const Story = () => {
           </div>
         </section>
 
-        <section className="mb-6">
+        <section className="mb-6 flex h16 flex-col">
           <img
             src={exaltTypes}
             alt="pic of the different exalts"
-            className="w-full h-full object-cover mb-4"
+            className="h-72 text-center object-cover mb-4 border border-black"
           />
-
-          <div className="text-lg font-semibold">Pre-amble</div>
-          <p className="mb-4">
+          <div className="text-lg font-semibold ">About Exalts</div>
+          <p className="">
             Some exalted you may have met. Whether from dreams or from
             experience you remember. The shapeshifters of Luna, the Fateweavers
             of the Maidens, and of course the Dragon-Blooded. More than that you
             have heard whispers of DeathKnights who wander the land. Powerful
             beings who can lay waste to armies.
           </p>
-
-          {/* Border for separation */}
-          <hr className="my-4 border-gray-300" />
-
-          <p className="mb-4">
+        </section>
+        <section>
+          <p>
             Yet you were not always one of these beings. Once you knew only a
-            moral life. Will you remember what it was to be mortal?
+            mort al life. Will you remember what it was to be mortal?
           </p>
-
-          {/* Border for separation */}
-          <hr className="my-4 border-gray-300" />
-
-          <p className="mb-4">
+          <section>
+            ____________________________________________________________________________________________________________________________________________
+          </section>
+          <section>
+            <img
+              className="w-full border border-black"
+              src="https://www.thefandomentals.com/wp-content/uploads/2018/05/Exalted_Splash.jpg
+"
+              alt=""
+            />
+          </section>
+          <p className="mb-1.5">
             Exalted is a game of super powers. you are beyond level 20. You have
-            been chosen because you their are two things that mark you
+            been chosen because there are two things that mark you:
             <ol>
-              You are good at something beyond most people in the country if not
-              in the world
+              You are good at something beyond most people in the country, if
+              not in the world
             </ol>
             <ol>
               You have a personal belief that is in line with lifting humanity
@@ -104,9 +118,7 @@ const Story = () => {
         </section>
 
         {/* Section 2 */}
-        <section className="mb-6">
-          {/* Your second section code here */}
-        </section>
+        <section className="mb-6"></section>
 
         {/* Date */}
         <div className="text-gray-500 text-sm">
